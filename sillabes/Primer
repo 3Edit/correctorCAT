@@ -1,0 +1,24 @@
+def
+	$	per o vim, final de paraula
+	^	per o vim, inici de paraula
+
+no se separa
+	ll
+	ny
+	[gq]u
+	ig
+	^an
+	^con
+	^en
+	^in
+	^des
+	^ex
+	^sub
+	^trans
+	^ad
+	^nos
+	^vos
+
+se separa
+	l·l
+	ix\$	- me pregunto si es  gaire necessari...

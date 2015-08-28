@@ -1,0 +1,23 @@
+def
+	.	separació sil·làbica
+	^	perl o vim, inici de paraula
+	\	math, element extret
+
+	f	[iu]	- no tònica, febles
+	F	[aeo]	- tònica, i u també ho poden ser
+	v	[aeiou]
+	c	[a-z]\v
+
+Diftongs
+	decreixent
+		v + f
+	creixent
+		[gq] + u + v\u
+		v + . f + v	(recordar el feble com si fos una consonant)
+		^f + F
+Hiat
+	creixent
+		c + f + v
+		F + F
+Triftongs
+	f + F + f
